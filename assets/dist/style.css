@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400");
+@font-face {
+  font-family: "Miso";
+  src: url("../../fonts/miso.eot?") format("eot"), url("../../fonts/miso.woff") format("woff"), url("../../fonts/miso.ttf") format("truetype"), url("../../fonts/miso.svg#Miso") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+.container {
+  margin: 0 auto;
+  background-color: #fdde7e;
+  display: flex;
+  max-width: 1200px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+
+.coffee {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  display: flex;
+  background-color: #ffffff;
+  width: 30%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-radius: 3px; }
+  .coffee__prise {
+    color: #02995b;
+    font-family: Miso;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 24px; }
+  .coffee__class {
+    color: #333333;
+    font-family: Miso;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 24px; }
+  .coffee__text {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+    width: 50%;
+    text-align: center; }
+  .coffee__bronze {
+    max-height: 460px;
+    margin-left: 30px;
+    margin-right: 30px; }
+    .coffee__bronze:hover {
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.6); }
+  .coffee__gold {
+    height: 500px;
+    max-height: 500px;
+    align-self: center; }
+    .coffee__gold:hover {
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.6); }
+  .coffee__silver {
+    max-height: 460px;
+    margin-left: 30px;
+    margin-right: 30px; }
+    .coffee__silver:hover {
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.6); }
+
+/*# sourceMappingURL=style.css.map */
